@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera Pagina Web</title>
+</head>
+<body>
+
+    <!--Encabezado -->
+    
+    <h2>Prueba</h2>
+    <h1>Hola</h1>
+    <h3>Hola</h3>
+    <!--Esto es para un cambio de linea-->
+    <br>
+    <!--Parrafos-->
+    <p>Esto es un parrafo</p>
+ 
+    <!--Enfasis -->
+    <!--strong , em , b ,i -->
+    <!--Strong sirve para que la letra este en negrita-->
+    <p>Esto es una prueba de <strong>strong</strong></p>
+    <!--b sirve para que la letra este en cursiva-->
+    <p>Esto es una prueba de <b>b</b></p>
+    <!--i sirve para que la letra este en negrita-->
+    <P>esto es una prueba de <i>i</i></P>
+
+    <!--Listas-->
+,   <!--Lista con viñetas-->
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Js</li>
+        <li>Query</li>
+    </ul>
+
+    <!--Lista con numeros -->
+
+    <ol>
+    <li>html</li>
+    <li>css</li>
+    <li>Js</li>
+
+    </ol>
+
+
+  
+    <!--Citas-> Blockquote-->
+    <h1>Titulo Principal</h1>
+    <h2>Subtitulo</h2>
+    <p>Esto es un ejemplo de un parrafo</p>
+    <p><strong>Texto en negrita</strong> y <em> Texto en cursiva</em></p>
+    <hr>
+    <ul>
+        <li>Elemeto de lista</li>
+        <li>Otro Elemento</li>
+    </ul>
+    <!--Esto es como para agregar texto o citas a las paginas -->
+    <blockquote>
+        "Esto es una cita larga"
+    </blockquote>
+
+
+    <!--Vinculos -->
+    <!--con el target ="_blank lo que me hace es que esa direccion me la abre en una nueva pestaña"-->
+    <!--Despues de la direccion necesito ponerle un titulo por decir asi en este caso google-->
+     <a href="https://google.com" target="_blank">Google</a>
+
+     <br>
+
+     <!--Con este comando puedo agregar imagenes a mi doc-->
+     <img src="./Assets/Images/usuario.png" alt="Imagen de Usuario">
+     <img src="./Assets/Images/goku.png.jfif" alt="Goku" >
+
+
+     <!--Tablas-->
+      <!--Tr es para las -->
+     <table border="1">
+        <head>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+
+            </tr>
+        </head>
+        <body>
+            <tr>
+                <td>Manzanas</td>
+                <td>3.000</td>
+            </tr>
+            <tr>
+                <td>Peras</td>
+                <td>4.000</td>
+            </tr>
+        </body>
+
+     </table>
+
+
+     <!--Formularios-->
+     <form action="/enviar" method="post">
+        <p>
+        <label for="">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" maxlength="15" required>
+        <p>
+        <label for="contrasena">Contraseña</label>
+        <input type="password" name="contrasena" id="contrasena" maxlength="8">
+        <p>
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo">
+        <p>
+        <label for="genero">Genero</label>
+            <!--con el label genero y llamando en el linea que continua hago que los radio button funcione solo uno a la vez-->
+        <input type="radio" name="genero" id="hombre" value="hombre">
+        <label for="hombre">hombre</label> 
+        <input type="radio" name="genero" id="mujer" value="mujer">
+        <label for="mujer">mujer</label>   
+
+        <br><br>
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" rows="10" cols="50" maxlength="50"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+
+     </form>
+    <p>
+    <br>
+     <!--Video-->
+        <h1>Mi Video</h1>
+        <iframe 
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/10GHKjgQIR0" 
+        title= video de html
+        allow=""
+        allowfullscreen
+        frameborder="0">
+    </iframe>
+
+
+
+
+</body>
+</html>
